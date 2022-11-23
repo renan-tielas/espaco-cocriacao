@@ -1,0 +1,123 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+.perfil {
+  padding: 10% 10%;
+  justify-self: center;
+  align-self: center;
+  background-color: branco-fantasma;
+  top: 2rem;
+  left: 4rem;
+  position: relative;
+}
+
+.perfil:hover {
+  cursor: pointer;
+}
+
+.foto_perfil {
+  height: max-content;
+  image-rendering: optimizeSpeed;
+  object-fit: fill;
+  border-bottom: 10px #ffd248 solid;
+  border-top-right-radius: 26px;
+  border-top-left-radius: 26px;
+  overflow: hidden;
+}
+
+.quadro:hover {
+  cursor: pointer;
+}
+
+.quadro {
+  justify-self: center;
+  align-self: center;
+  background-color: branco-fantasma;
+  top: 2rem;
+  left: 6rem;
+  position: relative;
+}
+
+.biografia {
+  font: none;
+}
+
+.navegacao {
+  display: flex;
+  flex-direction: column;
+  font-family: LindenHill, Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  height: auto;
+  padding: 0rem 2rem;
+  align-self: center;
+  justify-self: center;
+  background-color: branco-fantasma;
+  position: relative;
+  top: -2rem;
+  left: -4rem;
+}
+
+.topo {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". ." ". .";
+  grid-area: 1/1/2/2;
+}
+
+.conteudo {
+  grid-area: 2/1/5/2;
+  width: 100%;
+}
+
+.conteudo_2 {
+  grid-area: 4/1/5/2;
+  width: 100%;
+}
+
+.subtitulo {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
+  grid-area: 3/1/4/2;
+}
+
+.quadros {
+  display: grid;
+  grid-template-columns: 1.6fr 3.6fr;
+  grid-template-rows: 2.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row dense;
+  grid-template-areas: ". .";
+  width: 100%;
+  height: calc(100% - 160px);
+}
+
+.quadros_esquerda {
+  padding: 7% 8% 0 8%;
+  display: grid;
+  grid-template-columns: 1.6fr;
+  grid-template-rows: 1.8fr 1.8fr;
+  gap: 0px 0px;
+  grid-auto-flow: row dense;
+  grid-template-areas: "." ".";
+  height: calc(100% - 50px);
+  justify-content: center;
+  align-content: center;
+}
+
+.livro {
+  border: green solid 2px;
+  height: 100%;
+  width: 100%;
+  justify-self: center;
+}
+
+.produtos {
+  color: blue;
+}
+
+/*# sourceMappingURL=objetos.module.css.map */

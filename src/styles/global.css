@@ -1,0 +1,73 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+body, html {
+  border: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: branco-fantasma;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: branco-fantasma;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #332a1f;
+  /* border: 2px solid #555555; */
+}
+
+form {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+}
+
+@font-face {
+  font-family: "Aller";
+  src: url("../../public/fonts/Aller_Lt.ttf");
+  src: url("../../public/fonts/Aller_Bd.ttf");
+  font-family: "JosefinSans";
+  src: url("../../public/fonts/JosefinSans-Light.ttf");
+  src: url("../../public/fonts/JosefinSans-Bold.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-family: "QuickSand";
+  src: url("../../public/fonts/Quicksand-Light.otf");
+  src: url("../../public/fonts/Quicksand-Bold.otf");
+  font-family: "Reey";
+  src: url("../../public/fonts/Reey-Regular.otf");
+  font-family: "Insani";
+  src: url("../../public/fonts/Insanibc.ttf");
+  src: url("../../public/fonts/Insanibu.ttf");
+  font-family: "Philosopher";
+  src: url("../../public/fonts/Philosopher-Regular.ttf");
+  font-family: "Rainshow";
+  src: url("../../public/fonts/Rainshow.otf");
+  font-family: "Reey";
+  src: url("../../public/fonts/Reey-Regular.otf");
+}
+@font-face {
+  font-family: "LindenHill";
+  src: url("../../public/fonts/LindenHill.otf");
+  src: url("../../public/fonts/LindenHill-Italic.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=global.css.map */
